@@ -269,7 +269,7 @@ data.head()
 
 ## 6.作业总结
 
-练习一 (1)√  （2）题意理解似乎有误：此处留下参考答案的借鉴：[https://github.com/datawhalechina/joyful-pandas/blob/master/%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.ipynb](https://github.com/datawhalechina/joyful-pandas/blob/master/参考答案.ipynb)
+练习一 (1)√  （2）自己题意理解有误：此处留下参考答案的借鉴：[https://github.com/datawhalechina/joyful-pandas/blob/master/%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.ipynb](https://github.com/datawhalechina/joyful-pandas/blob/master/参考答案.ipynb)
 
 ```python
 df = pd.read_csv('data/Missing_data_one.csv').convert_dtypes()
@@ -280,7 +280,7 @@ df['A'] = pd.Series(list(zip(df['A'].values
 df.head()
 ```
 
-练习二 (1) 思路写法正确，然而审题不清，把非缺失值不少于两个，想成了缺失值不少于两个 （2）思路基本正确，与参考答案思路一致，但是奈何结果出不来啊
+练习二 (1) 思路写法正确，然而审题不清，把非缺失值不少于两个，想成了缺失值不少于两个 （2）√
 
 以下为（2）的参考解题思路：
 
