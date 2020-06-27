@@ -60,7 +60,7 @@ s.cat.ordered#查看是否排序
 
 **利用rename_categories会把值和分类同时修改**
 
-![image-20200627103429377](../../ProgramFiles/Typora/upload/image-20200627103429377.png)
+![image-20200627103429377](https://raw.githubusercontent.com/zbingbing-lava/pic/master/img/20200627210240.png)
 
 **利用字典修改值，值和分类也会同时修改**
 
